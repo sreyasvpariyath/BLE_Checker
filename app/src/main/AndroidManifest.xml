@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="blechecker.sreyasvpariyath.com.ble_checker">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+
+    <application
+        android:name=".application.My_Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ble"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ble"
+        android:supportsRtl="true"
+        android:theme="@style/MeterialTheme">
+        <activity android:name=".activities.Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity">
+        </activity>
+        <activity android:name=".activities.admobsfullscreen.activities.InterstitialAd_Activity">
+        </activity>
+        <activity android:name=".activities.admobsfullscreen.activities.Reward_Video_Activity">
+        </activity>
+    </application>
+
+</manifest>

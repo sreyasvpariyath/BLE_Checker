@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MeterialTheme" parent="ParentMeterialTheme"></style>
+
+    <style name="ParentMeterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="ThemeCustomDialog" parent="@android:style/Theme.Translucent.NoTitleBar">-->
+    <!--<item name="android:windowIsFloating">true</item>-->
+    <!--<item name="android:windowSoftInputMode">stateHidden</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--<item name="android:padding">0dp</item>-->
+    <!--<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+    <!--<item name="android:backgroundDimEnabled">true</item>-->
+    <!--<item name="android:background">@drawable/alertchange</item>-->
+
+    <!--</style>-->
+
+    <style name="AppBaseThemeDark" parent="MeterialTheme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+</resources>

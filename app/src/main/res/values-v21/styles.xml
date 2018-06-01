@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MeterialTheme" parent="ParentMeterialTheme">
+
+    </style>
+    <style name="DatepickerTheme" parent="ParentMeterialTheme">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

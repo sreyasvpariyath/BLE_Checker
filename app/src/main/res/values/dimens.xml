@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding5dp">5dp</dimen>
+    <dimen name="buttonheight">45dp</dimen>
+    <dimen name="generalmargin">10dp</dimen>
+    <dimen name="loadinproght">30dp</dimen>
+</resources>

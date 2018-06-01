@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BLE Utils</string>
+    <string name="list">List of BLE supported Devices</string>
+    <string name="ble_not_supported">No BLE Module Found.!</string>
+    <string name="scan">Scan LE Devices</string>
+    <string name="willbeenabled">Feature Will be enabled Soon.!\nSorry!</string>
+
+    <string name="admob_app_id">ca-app-pub-6917495617861164~2302970223</string>
+    <string name="bleutilbanner">ca-app-pub-6917495617861164/7846531824</string>
+    <string name="bleutilinterstitial">ca-app-pub-6917495617861164/2323151522</string>
+    <string name="bleutilvideo">ca-app-pub-6917495617861164/8852615444</string>
+</resources>
